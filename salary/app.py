@@ -6,7 +6,7 @@ import pandas as pd
 st.title('Salary Prediction App')
 
 # Load the trained model
-with open('Salary.Pickle', 'rb') as dbfile:
+with open('salary.pickle', 'rb') as dbfile:
     model = pk.load(dbfile)
 
 # User Inputs
