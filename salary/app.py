@@ -7,7 +7,7 @@ st.title('Salary Prediction App')
 
 # Load the trained model
 with open('salary.pickle', 'rb') as dbfile:
-    model = pk.load(dbfile)
+model = pk.load(dbfile)
 
 # User Inputs
 age = st.number_input("Enter your age:", min_value=18, max_value=60)
